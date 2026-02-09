@@ -20,6 +20,8 @@ def load_model():
 
 model, feature_names = load_model()
 
+st.image("Man Talking to Doctor.jpg", use_column_width=True)
+
 # app title and desc
 st.title("🧠 Stroke Risk Prediction Tool")
 
