@@ -21,6 +21,7 @@ def load_model():
 model, feature_names = load_model()
 
 st.image("Man Talking to Doctor.jpg", use_column_width=True)
+st.caption("Have you ever consulted a doctor about your stroke risk? This tool can help you understand your risk factors.")
 
 # app title and desc
 st.title("🧠 Stroke Risk Prediction Tool")
